@@ -9,12 +9,12 @@ public class exercicio2_2905 {
      public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         
-       int alt, larg, result;
+       double alt, larg, result;
        
          System.out.println(" Digite a altura do retângulo");
-         alt = leia.nextInt();
+         alt = leia.nextDouble();
          System.out.println(" Digite a largura do retângulo");
-         larg = leia.nextInt();
+         larg = leia.nextDouble();
           
          result = alt * larg;
          
