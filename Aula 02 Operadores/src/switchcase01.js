@@ -1,5 +1,5 @@
 import leia from "readline-sync"
-var codigoErro = leia.question ("Digite o número do erro");
+var codigoErro = leia.questionInt ("Digite o número do erro");
 
 switch(codigoErro){
 
@@ -15,6 +15,7 @@ switch(codigoErro){
 
         //codigo
         break;
+
     default:
         console.log ("NÃO É ERRO")
         break;
