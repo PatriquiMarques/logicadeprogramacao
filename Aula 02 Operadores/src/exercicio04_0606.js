@@ -1,6 +1,6 @@
 import leia from "readline-sync"
 
-var nProdutos = leia.questionFloat ("Digite a quantidade de maças")
+var nProdutos = leia.questionFloat ("Digite a quantidade de macas")
  var totalProdutos =0
 if (nProdutos<12){
     totalProdutos =(nProdutos * 0.30)

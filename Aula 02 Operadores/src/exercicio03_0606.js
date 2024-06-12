@@ -4,6 +4,7 @@ var placa = leia.question ("Digite a placa do seu carro ")
 
 var ultimoAlgarismo = placa.charAt(placa.length-1);
 
+//if( ultimoAlgarismo === "0" || ultimoAlgarismo === "1") caso fosse no if else
 
 
 switch ( ultimoAlgarismo) {
