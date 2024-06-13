@@ -5,9 +5,14 @@ var time2 = leia.questionInt ("Digite a quantidade de goals do time 2 \n")
 
 var placar =  time1 - time2
 
+if (placar < 0){
+    placar *= -1
+}
+
 switch (placar) {
 
     case 0:   
+    
         console.log ( "EMPATE")
     break;
 
