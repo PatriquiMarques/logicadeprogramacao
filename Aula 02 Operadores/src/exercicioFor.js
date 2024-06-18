@@ -1,7 +1,17 @@
- console.log("Inicio dos Cadastros")
+//  console.log("Inicio dos Cadastros")
 
-for(let i =0; i<10;i++){
+// for(let i =0; i<10;i++){
     
-    console.log("Cadastro " + i)
+//     console.log("Cadastro " + i)
 
-} console.log("fim dos Cadastros")
+// } console.log("fim dos Cadastros")
+
+console.log ("inicio de cadastro")
+for (var i= 0; i<100; i++){
+    if(i%2===0) {
+        console.log(i + " E par")
+    }   else{
+        console.log (i + " E impar")
+    }
+  
+}
