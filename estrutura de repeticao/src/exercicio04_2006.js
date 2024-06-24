@@ -9,7 +9,7 @@ var maior = num
 var menor = num
 
 
-while( cont<= 3){
+while( cont<= 15){
     cont++
    
     var num2 = leia.questionFloat("Digite um numero\n")
@@ -18,11 +18,14 @@ while( cont<= 3){
     if (num2 > num && num2 > maior  ){
          
          maior= num2
-    }else{
+
+
+   
+    }else if ( num2 < num && num2 < menor ){
        menor = num2
     } 
 
 
 
-    } console.log(" O maior numero digitado é: " +  maior + "\n" + "O numero menor é: " + menor)
+    } console.log(" O maior numero digitado foi: " +  maior + "\n" + "O numero menor foi: " + menor)
 
