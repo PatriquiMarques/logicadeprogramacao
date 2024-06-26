@@ -10,7 +10,7 @@ var multi =1
 while(cont <= 6) {
  
     cont++
-    var num= leia.questionInt(" Digite um numero ") 
+    var num= leia.questionInt(" Digite um numero \n") 
     
     if( num%2===0){
 
