@@ -4,7 +4,7 @@
 
 //console.log(lista) mostra todo array
 //console.log(lista[1]) mostra o item da lista no index 1
-//lista [1] = "joaozinho" faz atribuição no array... lembre colocando o indec que quer substituir pois se não vai substituir toda a lista
+//lista [1] = "joaozinho" faz atribuição no array... lembre colocando o index que quer substituir pois se não vai substituir toda a lista
 
 //console.log(lista [1] , lista [2]) para mostrar mais de um indece
 
