@@ -17,7 +17,7 @@ for ( var i=0; i < 50; i ++) {
         vetorFilho[i] = vetoraMae[i]
     }
 
-}console.log( vetorFilho)
+}console.log( "Filho " + vetorFilho)
 console.log( "Pai  " + vetorPai)
 console.log( "Mae  " + vetoraMae)
 

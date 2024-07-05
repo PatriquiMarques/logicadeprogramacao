@@ -12,7 +12,7 @@ for(var i = 0 ; i<30; i++){
     num2 = parseInt(Math.random()*12) +23
 
     if (num > num2 ){
-        maxima [i] = num 
+        maxima [i] = num // aqui poderia ser  maxima.push(num)
         minima [i] = num2
 
     } else  {
