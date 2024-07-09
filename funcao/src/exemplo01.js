@@ -1,4 +1,5 @@
-import leia from "readline-sync"
+
+
 
 // function mostrar(){
 //     var nome = leia.question("DIGITE O NOME")
