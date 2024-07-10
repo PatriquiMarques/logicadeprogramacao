@@ -1,9 +1,8 @@
 
-var linha = 2
-var coluna = 4
-var matriz = []
+
+var matriz = [[]]
  
-for (var i = 0 ; i < coluna; i++){
+for (var i = 0 ; i < 8; i++){
 
      coluna = parseInt(Math.random()*50)
      matriz[i] = matriz.push(coluna)

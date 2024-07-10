@@ -9,9 +9,9 @@ var vet3 = []
 var vet4 = []
 
 
-vet1 = VetorNumAleatorios(9,100)
-vet2 = VetorNumAleatorios(9,100)
-vet3 = VetorNumAleatorios(9,100)
+vet1 = VetorNumAleatorios(8,100)
+vet2 = VetorNumAleatorios(8,100)
+vet3 = VetorNumAleatorios(8,100)
 
 
 

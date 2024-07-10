@@ -1,19 +1,39 @@
 import { VetorNumAleatorios } from "./MinhasFun.js"
 
 
-var vet1 = []
-var vetduplicado= []
+var vetor = []
+var temDuplicidade= []
 
 
-vet1 = VetorNumAleatorios(10,100)
+vetor = VetorNumAleatorios(10,100)
+
+console.log(vet1)
 
 
-for(var i = 0; i <= 10; i++){
-
-    if
-
+function verificarDuplicidade (vetor){
+for (var i = 0 ; i < vetor.length; i++){
+    for(var j = i; j < vetor.length; j++){
+        if (j !== i && vetor[i]=== vetor[j]){
+            
+        }
+    } return false
 
 }
+}
+var temDuplicidade = verificarDuplicidade(vetor)
+
+if (temDuplicidade){
+    console.log ("Tem Duplicidade")
+} else{
+    console.log("Nao tem duplicidade")
+}
+ 
+
+console.log(vetor)
+console.log(vetduplicado)
+
+
+
 
 
 
