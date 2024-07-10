@@ -1,19 +1,18 @@
 
-
-var matriz = [[]]
+var linhas = 8
+var colunas = 8
+var matriz = []
  
-for (var i = 0 ; i < 8; i++){
+for (var i = 0 ; i < linhas; i++){
 
-     coluna = parseInt(Math.random()*50)
-     matriz[i] = matriz.push(coluna)
+    var linha=[]
 
-    for (var j = 0 ; j < linha; j++){
+  for (var j = 0 ; j <colunas; j++){
 
-        linha = parseInt(Math.random()*50)
-         matriz[j] = linha
+        linha.push(0)
 
     }
-
+    matriz.push(linha)
 
 } console.log(matriz)
 
