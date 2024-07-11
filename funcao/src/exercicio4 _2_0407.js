@@ -1,9 +1,9 @@
 import { VetorNumAleatorios } from "./MinhasFun.js"
 var linha = 1
 var coluna = 1
-var matriz = [[coluna],[linha]]
+var matriz = [[]]
  
-for (var i = 0 ; i < coluna; i++){
+for (var i = 0 ; i < 4; i++){
 
      
      matriz[i]= VetorNumAleatorios(4,50)

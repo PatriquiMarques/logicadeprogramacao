@@ -1,9 +1,9 @@
 import { NumAleatorios } from "./MinhasFun.js";
 
-var dado
+var dado 
 var  um=0, dois=0, tres=0, quatro=0, cinco=0, seis=0
 
-for(var i=0; i<1000; i++){
+for(var i=0; i< 1000; i++){
  
     dado = parseInt((Math.random()*6)+1)
 
@@ -22,10 +22,10 @@ for(var i=0; i<1000; i++){
             seis++
         }console.log (dado)
     }
- if (um > 222 || dois > 222 || tres > 222||quatro > 222||cinco > 222||seis > 222)
- console.log (" O DADO VICIADO")
+ if (um > 220 || dois > 220 || tres > 220||quatro > 220||cinco > 220||seis > 220)
+ console.log (" DADO VICIADO")
  else{
-    console.log (" O DADO NAO VICIADO")
+    console.log ("DADO NAO VICIADO")
  } console.log (um)
  console.log (dois)
  console.log (tres)

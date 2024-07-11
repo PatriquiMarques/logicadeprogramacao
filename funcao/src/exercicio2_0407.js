@@ -1,5 +1,6 @@
 import { VetorNumAleatorios } from "./MinhasFun.js"
-
+ 
+export
 
 var vetor = []
 var temDuplicidade= []
