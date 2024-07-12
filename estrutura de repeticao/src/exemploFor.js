@@ -2,7 +2,7 @@ import leia from "readline-sync"
 
 
 
-//var nota = leia.questionFloat("Digite a nota do aluno\n")
+var nota = leia.questionFloat("Digite a nota do aluno\n")
 
 for(var i = 0; i < 10; i ++){
 
